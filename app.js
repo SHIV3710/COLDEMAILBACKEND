@@ -12,7 +12,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cors("*"));
 
-// Default PDF file path
+
 const defaultPDFPath = path.join(__dirname, "uploads/SHIV_KUMAR_RESUME.pdf");
 
 app.get("/", (req, res) => {
